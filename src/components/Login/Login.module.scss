@@ -5,6 +5,7 @@
     height: 100%;
     align-items: center;
     justify-content: center;
+    flex: 1 1 auto;
     .box {
         box-shadow: var(--smShadow);
         background-color: #fff;
@@ -19,6 +20,11 @@
             font-weight: bold;
             text-align: center;
             font-size: 1.1rem;
+        }
+    }
+    @media (max-width: 480px) {
+        .box {
+            width: 100%;
         }
     }
 }

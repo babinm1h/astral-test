@@ -60,10 +60,10 @@
   "users": [
     {
       "accept1": true,
-      "accept2": false,
+      "accept2": true,
       "address": "",
-      "age": "",
-      "birthday": "2022-12-25T05:45:48.087Z",
+      "age": "20",
+      "birthday": "2002-12-07T05:45:48.000Z",
       "city": "",
       "country": "",
       "description": "something",
@@ -71,7 +71,7 @@
       "fax": "",
       "firstName": "Misha",
       "gender": "male",
-      "lastName": "last",
+      "lastName": "lastname",
       "organization": "",
       "phone": "+7 (777) 777-7777",
       "pinCode": "",

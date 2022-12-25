@@ -6,3 +6,5 @@ export const countries = [
   { text: "France", value: "France" },
   { text: "Spain", value: "Spain" },
 ];
+
+export const contacts = { name: "Mihail", link: "https://t.me/m1hbbn" };
