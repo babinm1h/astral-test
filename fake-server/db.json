@@ -66,17 +66,19 @@
       "birthday": "2022-12-25T05:45:48.087Z",
       "city": "",
       "country": "",
-      "description": "",
+      "description": "something",
       "email": "fax@fax.ru",
       "fax": "",
       "firstName": "Misha",
       "gender": "male",
-      "lastName": "Test",
+      "lastName": "last",
       "organization": "",
       "phone": "+7 (777) 777-7777",
       "pinCode": "",
       "street": "",
       "zip": "",
+      "login": "admin",
+      "password": "admin",
       "id": 1
     }
   ]

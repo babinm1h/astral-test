@@ -124,6 +124,7 @@ const LivingPlaceFormBlock = () => {
           name="accept1"
           onChange={formik.handleChange}
           value={formik.values.accept1}
+          checked={formik.values.accept1}
         />
         <FormControlLabel
           control={<Checkbox />}
@@ -131,6 +132,7 @@ const LivingPlaceFormBlock = () => {
           name="accept2"
           onChange={formik.handleChange}
           value={formik.values.accept2}
+          checked={formik.values.accept2}
         />
       </FormGroup>
       <FormControl>

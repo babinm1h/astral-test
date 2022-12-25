@@ -35,8 +35,8 @@ export const useEditViewForm = (defValues: IUpdateUserData) => {
   const dispatch = useAppDispatch();
 
   const initialValues: IEditViewForm = {
-    accept1: (defValues.accept1 as boolean) || false,
-    accept2: (defValues.accept2 as boolean) || false,
+    accept1: !!defValues.accept1,
+    accept2: !!defValues.accept2,
     address: defValues.address || "",
     age: defValues.age || "",
     birthday: defValues.birthday || new Date(),
@@ -109,6 +109,9 @@ export const useEditViewForm = (defValues: IUpdateUserData) => {
     dispatch(
       updateAuthUser({
         ...values,
+        // если не отправить логин и пароль, JSON-server их стирает
+        login: defValues.login,
+        password: defValues.password,
         id: defValues.id,
       })
     );
