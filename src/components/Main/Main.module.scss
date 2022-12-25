@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .card {
+        align-self: flex-start;
+        min-width: 250px;
+    }
+    .cards {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}

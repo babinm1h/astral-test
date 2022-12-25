@@ -1,0 +1,35 @@
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin: 0 auto;
+    margin: 25px 0;
+
+    .doubleFields {
+        display: flex;
+        gap: 15px;
+        width: 100%;
+        .field {
+            flex: 1;
+        }
+    }
+
+    .btn {
+        align-self: flex-start;
+    }
+
+    .formBlock {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    @media (max-width: 520px) {
+        .doubleFields {
+            flex-direction: column;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.container {
+    max-width: 300px;
+    rect {
+        max-width: 300px;
+    }
+    @media (max-width: 900px) {
+        width: 100%;
+        max-width: none;
+        rect {
+            width: 100%;
+            max-width: none;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "word": "a book",
+      "partOfSpeech": "noun",
+      "example": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "translate": "Книга"
+    },
+    {
+      "id": 2,
+      "word": "lucky",
+      "partOfSpeech": "adjective",
+      "example": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "translate": "Удачливый"
+    },
+    {
+      "id": 3,
+      "word": "easily",
+      "partOfSpeech": "adverb",
+      "example": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "translate": "Просто"
+    },
+    {
+      "id": 4,
+      "word": "want",
+      "partOfSpeech": "verb",
+      "example": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "translate": "Хотеть"
+    },
+    {
+      "id": 5,
+      "word": "We",
+      "partOfSpeech": "pronoun",
+      "example": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "translate": "Мы"
+    },
+    {
+      "id": 6,
+      "word": "become",
+      "partOfSpeech": "verb",
+      "example": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "translate": "Становиться"
+    },
+    {
+      "id": 7,
+      "word": "work",
+      "partOfSpeech": "verb",
+      "example": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "translate": "Работать"
+    },
+    {
+      "id": 8,
+      "word": "light",
+      "partOfSpeech": "adjective",
+      "example": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "translate": "Светлый"
+    }
+  ],
+  "users": [
+    {
+      "accept1": true,
+      "accept2": false,
+      "address": "",
+      "age": "",
+      "birthday": "2022-12-25T05:45:48.087Z",
+      "city": "",
+      "country": "",
+      "description": "",
+      "email": "fax@fax.ru",
+      "fax": "",
+      "firstName": "Misha",
+      "gender": "male",
+      "lastName": "Test",
+      "organization": "",
+      "phone": "+7 (777) 777-7777",
+      "pinCode": "",
+      "street": "",
+      "zip": "",
+      "id": 1
+    }
+  ]
+}

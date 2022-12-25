@@ -1,0 +1,94 @@
+.card {
+    box-shadow: var(--smShadow);
+    background-color: #fff;
+    max-width: 300px;
+    min-width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transform-style: preserve-3d;
+    .content {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+        .part {
+            color: var(--secondaryText);
+            font-size: 1rem;
+        }
+        .word {
+            font-size: 1.5rem;
+            line-height: 1.25;
+        }
+        .example {
+            margin-top: 15px;
+        }
+        .translate {
+            font-size: 1.5rem;
+        }
+        .title {
+            font-size: 14px;
+            color: var(--secondaryText);
+            padding-bottom: 10px;
+        }
+    }
+
+    .back {
+        transform: rotateY(180deg);
+        .content {
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .front,
+    .back {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        .footer {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    @media (max-width: 900px) {
+        max-width: none;
+        width: 100%;
+    }
+}
+
+// flip animation
+.flipExit {
+    transform: rotateY(0deg);
+}
+
+.flipExitActive {
+    transform: rotateY(180deg);
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+.flipExitDone {
+    transform: rotateY(180deg);
+}
+
+.flipEnter {
+    transform: rotateY(180deg);
+}
+
+.flipEnterActive {
+    transform: rotateY(0deg);
+    transition: transform 300ms;
+    transition-timing-function: cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+.flipEnterDone {
+    transform: rotateY(0deg);
+}

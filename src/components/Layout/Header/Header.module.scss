@@ -1,0 +1,34 @@
+.inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 20px;
+    .nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .user {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        cursor: pointer;
+        position: relative;
+        .avatar {
+            width: 30px;
+            height: 30px;
+            display: block;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+    }
+    @media (max-width: 400px) {
+        .userName {
+            display: none;
+        }
+    }
+}
